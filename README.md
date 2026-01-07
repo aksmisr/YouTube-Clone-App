@@ -1,7 +1,7 @@
 # 🎬 YouTube Clone App
 
 A responsive **YouTube UI Clone** built using **HTML, CSS, and Vanilla JavaScript**.  
-This project replicates the modern YouTube front-end design and core interactions to practice real-world front-end development concepts.
+This project focuses on recreating the look and feel of YouTube’s front-end interface and core interactions.
 
 ---
 
@@ -9,9 +9,9 @@ This project replicates the modern YouTube front-end design and core interaction
 
 - Responsive video grid layout  
 - Collapsible sidebar navigation  
-- Search functionality (real-time filtering)  
+- Search functionality  
 - Category filter chips  
-- Video modal with details (title, views, channel, description)  
+- Video modal with video details  
 - Subscribe / Subscribed button toggle  
 - Keyboard shortcuts:
   - `Esc` → Close video modal  
@@ -25,31 +25,65 @@ This project replicates the modern YouTube front-end design and core interaction
 - **CSS3** – Styling & responsiveness  
 - **JavaScript (ES6)** – Interactivity & DOM manipulation  
 
-
 ---
 
 ## 📂 Project Structure
 
+```
 YouTube-Clone-App/
 │
-├── index.html # Main HTML structure
-├── style.css # Styling and responsive design
-├── script.js # JavaScript logic and interactions
-└── README.md # Project documentation
+├── index.html
+├── style.css
+├── script.js
+├── screenshots/
+│   ├── Homepage
+│   ├── Search
+│   └── Video
+└── README.md
+```
 
 
+## ⚙️ How to Run Locally
 
-## 📸 Screenshots
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aksmisr/YouTube-Clone-App.git
+   ```
 
-### 🏠 Homepage
-![Homepage](./screenshots/homepage.png)
+2. Navigate into the project folder:
+   ```bash
+   cd YouTube-Clone-App
+   ```
 
-### 🔍 Search
-![Search](./screenshots/search.png)
+3. Open `index.html` in your browser  
+   *(or use Live Server in VS Code)*
 
-### ▶️ Video Player
-![Video Player](./screenshots/video.png)
+---
 
+## 🎯 Learning Outcomes
 
+- UI cloning of a real-world application  
+- JavaScript DOM manipulation  
+- Event handling & keyboard shortcuts  
+- Responsive layouts using CSS Grid and Flexbox  
 
+---
 
+## 🔮 Future Improvements
+
+- YouTube Data API integration  
+- Real video playback support  
+- User authentication  
+- Backend integration  
+
+---
+
+## 🙌 Author
+
+**Aakash Mishra**
+
+---
+
+## ⭐ Support
+
+If you like this project, don’t forget to **star ⭐ the repository**.
