@@ -44,19 +44,6 @@ YouTube-Clone-App/
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 Homepage
-![Homepage](./screenshots/Homepage)
-
-### 🔍 Search
-![Search](./screenshots/Search)
-
-### ▶️ Video Player
-![Video Player](./screenshots/Video)
-
----
-
 ## ⚙️ How to Run Locally
 
 1. Clone the repository:
