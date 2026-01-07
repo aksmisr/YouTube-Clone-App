@@ -1,89 +1,99 @@
-# 🎬 YouTube Clone App
+# 🌤️ Weather App (PyQt5)
 
-A responsive **YouTube UI Clone** built using **HTML, CSS, and Vanilla JavaScript**.  
-This project focuses on recreating the look and feel of YouTube’s front-end interface and core interactions.
+A simple desktop Weather Application built using Python and PyQt5 that fetches real-time weather data from the OpenWeatherMap API.
+
+The app allows users to enter a city name and displays:
+- Temperature in Celsius
+- Weather description
+- Weather emoji based on conditions
 
 ---
 
 ## 🚀 Features
 
-- Responsive video grid layout  
-- Collapsible sidebar navigation  
-- Search functionality  
-- Category filter chips  
-- Video modal with video details  
-- Subscribe / Subscribed button toggle  
-- Keyboard shortcuts:
-  - `Esc` → Close video modal  
-  - `/` → Focus search bar  
+- Clean PyQt5 GUI
+- Real-time weather data
+- Emoji-based weather visualization
+- Proper error handling (invalid city, network issues, API errors)
+- Secure API key handling using environment variables
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **HTML5** – Structure  
-- **CSS3** – Styling & responsiveness  
-- **JavaScript (ES6)** – Interactivity & DOM manipulation  
+- Python 3
+- PyQt5
+- Requests
+- OpenWeatherMap API
 
 ---
 
-## 📂 Project Structure
+## 📦 Installation & Setup
 
-```
-YouTube-Clone-App/
-│
-├── index.html
-├── style.css
-├── script.js
-├── screenshots/
-│   ├── Homepage
-│   ├── Search
-│   └── Video
-└── README.md
-```
+### Clone the repository
 
+    git clone https://github.com/aksmisr/Weather-App.git
+    cd Weather-App
 
-## ⚙️ How to Run Locally
+### Create and activate virtual environment
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/aksmisr/YouTube-Clone-App.git
-   ```
+Windows (PowerShell):
 
-2. Navigate into the project folder:
-   ```bash
-   cd YouTube-Clone-App
-   ```
+    python -m venv .venv
+    .\.venv\Scripts\activate
 
-3. Open `index.html` in your browser  
-   *(or use Live Server in VS Code)*
+Linux / macOS:
+
+    python -m venv .venv
+    source .venv/bin/activate
+
+### Install dependencies
+
+    pip install -r requirements.txt
 
 ---
 
-## 🎯 Learning Outcomes
+## 🔑 API Key Setup (IMPORTANT)
 
-- UI cloning of a real-world application  
-- JavaScript DOM manipulation  
-- Event handling & keyboard shortcuts  
-- Responsive layouts using CSS Grid and Flexbox  
+Create a free API key from:
+https://openweathermap.org/api
 
----
+Windows (PowerShell):
 
-## 🔮 Future Improvements
+    setx OPENWEATHER_API_KEY "your_api_key_here"
 
-- YouTube Data API integration  
-- Real video playback support  
-- User authentication  
-- Backend integration  
+Linux / macOS:
 
----
+    export OPENWEATHER_API_KEY="your_api_key_here"
 
-## 🙌 Author
-
-**Aakash Mishra**
+Restart VS Code or terminal after setting the API key.
 
 ---
 
-## ⭐ Support
+## ▶️ Run the Application
 
-If you like this project, don’t forget to **star ⭐ the repository**.
+    python main.py
+
+---
+
+## 📁 Project Structure
+
+    Weather-App/
+    │
+    ├── main.py
+    ├── requirements.txt
+    ├── .gitignore
+    └── README.md
+
+---
+
+## 🔐 Security Notes
+
+- API key is NOT hardcoded in the source code
+- Environment variables are used for safety
+- Do NOT push .env or secret files to GitHub
+- Old leaked API keys should be deleted immediately
+
+---
+
+#
